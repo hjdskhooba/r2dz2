@@ -7,7 +7,6 @@ import { withRouter } from 'react-router-dom';
 
 
 const StartshipPage = ({itemId, history}) => {
-    // const [state, setState] = useState({itemId: 2})
 
     const leftElement = (
     <StarshipList setItemId={(id) => history.push(id)}>

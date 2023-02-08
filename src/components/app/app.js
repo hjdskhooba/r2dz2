@@ -24,13 +24,13 @@ const App = () => {
             )
           }} />
           <Route path='/planets/:id?' exact={true} render={({ match }) => {
-            const itemId = match.params.id ? match.params.id : 1;
+            const itemId = match.params.id ? match.params.id : 2;
             return (
               <PlanetPage itemId={itemId}/>
               )
             }} />
           <Route path='/starships/:id?' exact={true} render={({ match }) => {
-            const itemId = match.params.id ? match.params.id : 1;
+            const itemId = match.params.id ? match.params.id : 9;
             return (
               <StarshipPage itemId={itemId}/>
               )
